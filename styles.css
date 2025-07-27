@@ -1,0 +1,398 @@
+
+
+body{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+/* Overall navbar layout */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #f8f9fa;
+}
+
+/* Logo container */
+.logo-container .logo {
+    width: 70px;
+    height: auto;
+}
+
+/* Navigation links style */
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    margin-left: auto; 
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Cart item */
+.shop-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.shop-item img {
+    width: 20px;
+    height: auto;
+}
+
+.price {
+    font-weight: bold;
+    margin-right: 5px;
+}
+.highlight{
+    color: chocolate;
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+
+}
+.hero-section{
+    margin:20px 20px ;
+}
+
+.hero-section img {
+    max-width: 300px;
+    height: auto;
+}
+
+.plants{
+    text-align: center;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.card{
+  /* width:100%; */
+
+    border: 2px solid salmon;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.189);
+ 
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.btn-primary{
+    background-color: chocolate;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+/* flower and Plants section */
+.flower-section {
+    margin-top: 127px;
+    padding: 20px;
+}
+.flower-container {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    max-width: 350px;
+}
+
+.main-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.badge {
+    position: absolute;
+    top: -28px;
+    right: -28px;
+    width: 80px;
+    z-index: 10;
+}
+
+.flower-content {
+    max-width: 500px;
+    text-align: left;
+}
+
+
+.flower-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.flower-content ul {
+    padding-left: 20px;
+}
+
+.flower-content li {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.least{
+    text-align: center;
+}
+.latest-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-img-content,
+.left-img-content2 {
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    color: white;
+    margin-bottom: 5px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.left-img-content {
+    background-image: url(../assets/deal-bloom.png);
+}
+
+.left-img-content2 {
+    background-image: url(../assets/deal-ana.png);
+}
+
+.Right-img-content {
+    background-image: url(../assets/deal-zabo.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;             
+    justify-content: center;  
+    align-items: center;    
+    text-align: center;     
+    flex-direction: column; 
+}
+.colorful-section {
+    background-color: #ffe4ec;
+    padding: 40px 0;
+    text-align: center;
+    background-image: url(assets/news-letter-bg.png);
+    height: 300px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.colorful h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.form-area {
+    display: inline-flex;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.form-area input[type="email"] {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.form-area button {
+    background-color: chocolate;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/* footer section */
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+}
+
+.footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-content {
+    flex: 1 1 250px;
+}
+
+.footer-logo {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.footer-links {
+    flex: 1 1 150px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #007bff;
+}
+
+.footer-social {
+    flex: 1 1 150px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 200px;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+.footer-social img:hover {
+    ransform: scale(1.2);
+}
+/* Responsive for mobile devices */
+    @media (max-width: 640px) {
+    @media (max-width: 640px) {
+.navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  /* Hide nav links on mobile */
+  .nav-links {
+    display: none;
+  }
+
+  /* Keep logo as it is */
+  .logo-container .logo {
+    width: 60px;
+  }
+
+  /* Keep cart item on right */
+  .shop-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .shop-item img {
+    width: 20px;
+    height: auto;
+  }
+
+  .price {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+}
+.hero-section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+ .card-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  }
+    .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .flower-container {
+    flex-direction: column;
+   
+   
+  }
+  .badge{
+    display: none;
+  }
+   .latest-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-side {
+    width: 100%;
+    align-items: center;
+  }
+
+  .left-img-content,
+  .left-img-content2,
+  .Right-img-content {
+    width: 90%; 
+    height: auto; 
+    margin-bottom: 15px;
+  }
+  .colorful {
+  max-width: 600px;
+  width: 100%;
+  padding: 0 15px;
+}
+.footer-section{
+  flex-direction: column;
+}
+
+  }
